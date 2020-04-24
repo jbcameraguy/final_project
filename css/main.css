@@ -1,0 +1,145 @@
+body {
+    font-family: Roboto, sans-serif;
+    color: #2b2b2b;
+}
+
+/**** GRID ****/
+
+.full-width {
+    width: 1400px;
+    margin: 0 auto;
+}
+
+/**** HEADER ****/
+
+header {
+    background: url("../img/hero-image1.png");
+    height: 700px;
+    background-size: cover;
+}
+header h1 {
+    text-align: center;
+    padding: 200px 0px 5px 0;
+    font-family: 'Patua One', sans-serif;
+    font-size: 60px;
+    color: #565173;
+    clear: both;
+}
+header p {
+    text-align: center;
+    font-size: 48px;
+    font-family: Roboto, sans-serif;
+    color: #262a40;
+    margin: 20px 150px 20px 150px;
+}
+/**** NAVIGATION ****/
+
+nav {
+    float: right;
+    margin: 0 40% 0 0;
+}
+nav ul li{
+    display: inline-block;
+}
+nav ul li a {
+    text-transform: capitalize;
+    text-decoration: none;
+    font-size: 14px;
+    color: #828282;
+    padding-left: 30px; 
+}
+
+/**** PORTFOLIO SECTION ****/
+
+#port-h2 {
+    text-align: center;
+    font-family: 'Patua One';
+    font-size: 36px;
+    color: #565173;
+}
+.tmb-img {
+    width: 800px;
+    height: 600px;
+    float: left;
+}
+.portfolio {
+    width: 500px;
+    height: 600px;
+    display: inline-block;
+    margin: 20px;
+}
+.porty h3 {
+    font-family: 'Patua One', sans-serif;
+    color: #565173;
+    font-size: 24px;
+    margin-top: 170px;
+    margin-bottom: -20px;
+ 
+}
+
+/**** ABOUT SECTION ****/
+
+
+#about {
+    background: #F2f2f0;
+    height: 550px;
+    margin-bottom: -30px;
+}
+.about-section {
+    width: 1000px;
+    margin: 0 auto;
+}
+#about-header {
+    text-align: center;
+    font-family: 'Patua One', sans-serif;
+    font-size: 36px;
+    color: #565173;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+.about-image {
+    float: left;
+    width: 400px;
+    border: 10px solid #bf9793;
+}
+.about-info {
+    display: inline-block;
+    width: 500px;
+    padding: 60px 0px 0px 20px;
+    text-align: center;
+    font-size: 20px;
+
+}
+
+/**** CONTACT SECTION ****/
+
+footer {
+    background: #262a40;
+    height: 500px;
+    margin-top: 0;
+}
+.third-width {
+    text-align:center;
+    width: 464px;
+    display: inline-block;
+}
+#connected {
+    text-align: center;
+    font-family: 'Patua One', sans-serif;
+    font-size: 36px;
+    color: #565173;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.contact h3 {
+    font-size: 23px;
+    font-family: 'Patua One', sans-serif;
+    color: #f2f2f0;
+}
+footer p, i {
+    color: #f2f2f0;
+    font-size: 23px;
+}
+footer i {
+    margin: 26px 15px 0px;
+}
